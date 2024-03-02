@@ -1,8 +1,12 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+    }
 body{
     background: #333;
     color: white;
-    overflow:hidden;
+    font-family: 'poppins' , sans-serif;
 }
     
 nav{
@@ -68,7 +72,7 @@ nav{
     outline: none;
     border-radius: 6px;
 }
- /* Responsive Design */
+ 
  @media (max-width: 768px) {
     nav {
         padding: 0px 20px;
@@ -82,35 +86,27 @@ nav{
         flex-basis: 100%;
     }
 }
-
-html {
-    scroll-behavior: smooth;
+.left h1{
+    font-size: 3rem;
 }
+
 .left {
     display: flex;
     flex-direction: column; 
     align-items: center; /* Center items horizontally */
 }
 
-.key-points {
-    margin-top: 20px; /* Adjust the top margin as needed */
-    font-family: Arial, sans-serif; /* Change the font family */
-    color: #555; /* Change the text color */
-    font-size: 1.2rem; /* Adjust the font size */
-    line-height: 1.5; /* Adjust the line height */
-    margin-top: 20px;
-}
 
-.key-points p {
+.key-features p {
     margin-bottom: 10px; /* Adjust the bottom margin for paragraphs */
     font-size: 1.6rem;
 }
 
-.key-points ul {
+.key-features ul {
     list-style-type: disc; /* Use disc bullet points for unordered lists */
 }
 
-.key-points li {
+.key-features li {
     margin-left: 20px; /* Add left margin to list items for indentation */
 }
 
